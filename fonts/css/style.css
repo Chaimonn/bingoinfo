@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Calistoga;
+  src: url(../fonts/Calistoga/Calistoga-Regular.ttf);
+}
+@font-face {
+  font-family: Pacifico;
+  src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+*{
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+  background-color: #87CEEB;
+}
+header {
+  height: 200px;
+  background-color: #00BFFF;
+}
+header h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-family: Calistoga;
+  font-size: 350%;
+}
+main {
+  text-align: center;
+}
+main button{
+  text-transform: uppercase;
+  font-family: Calistoga;
+  font-size: 350%;
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 60%;
+  background-color: #00BFFF;
+}
+table{
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+  background-color: #00BFFF;
+}
+td{
+  padding:4px 20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+  font-family: Arial;
+  font-size: 300%;
+}
+main h2{
+  font-family: Calistoga;
+  font-size: 300%;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.ng{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  background-color: #00BFFF;
+  height: 100px;
+}
+p{
+  font-family: Pacifico;
+  font-size: 320%;
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+}
+@media only screen and (min-width: 1024px) {
+  *{
+    box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+  }
+}
