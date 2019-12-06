@@ -66,7 +66,7 @@ xhttp.onreadystatechange = function() {
     num=this.responseText;
     num = num.split(",");
     num[0]=num[0].replace("[", "");
-    num[100]=num[100].replace("]", "");
+    num[99]=num[99].replace("]", "");
   }
 }
 xhttp.open("GET", "aleatorio.php", true);
@@ -95,7 +95,7 @@ function gerarNumero() {
       numer=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
     }
     if (cot==1&&cont==50) {
-      alert("O jogo acabou! Você perdeu!");
+      alert("O jogo acabou! VocÃª perdeu!");
     }
     else{
       document.getElementsByClassName('ng')[0].innerHTML+="<p>"+num[cont]+"</p>";
